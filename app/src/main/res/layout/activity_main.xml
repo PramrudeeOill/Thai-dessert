@@ -7,10 +7,36 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.vajasen.pramrudee.thaidessert.MainActivity">
+    tools:context="ice_pbru.vajasen.pramrudee.thaidessert.MainActivity"
+    android:background="@drawable/pip">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thai - Dessert"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/H1"
+        android:background="#abf6e3f8"
+        android:textColor="#370f78" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/H2"
+        android:background="#c8acf5"
+        android:textColor="#0a0a0a" />
+
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
+        android:layout_alignRight="@+id/button"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="#9f9df2f9" />
 </RelativeLayout>
