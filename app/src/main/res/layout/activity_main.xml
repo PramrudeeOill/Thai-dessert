@@ -17,7 +17,7 @@
         android:id="@+id/textView"
         android:gravity="center_horizontal"
         android:textSize="@dimen/H1"
-        android:background="#abf6e3f8"
+        android:background="#b2adf0f8"
         android:textColor="#370f78" />
 
     <Button
